@@ -14,6 +14,6 @@ for k in range(1,100):
 	x.append(s)
 s += .5*v[100,1]
 x.append(s)
-print s
+print (s)
 plt.plot(range(101),v[:,1],range(101),x)
 plt.show()
